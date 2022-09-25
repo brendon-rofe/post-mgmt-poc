@@ -18,7 +18,7 @@ import {
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
-const NavLink = ({ children }) => (
+const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
     px={2}
     py={1}
